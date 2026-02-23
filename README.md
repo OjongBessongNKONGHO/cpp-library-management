@@ -31,7 +31,6 @@ Data is stored using:
 
 
 ## Architecture (High level)
-## Architecture (High level)
 
 ```mermaid
 flowchart TD
@@ -43,8 +42,6 @@ flowchart TD
     D --> G["membres.txt"]
     E --> H["emprunts.txt"]
 ```
-
-## Technical Concepts Applied
 
 
 ## Technical Concepts Applied
