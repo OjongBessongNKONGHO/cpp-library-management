@@ -29,17 +29,18 @@ Data is stored using:
 - `membres.txt`
 - `emprunts.txt`
 
+
 ## Architecture (High level)
 
 ```mermaid
 flowchart TD
-  A[main.cpp] --> B[Menu / App Flow]
-  B --> C[Livre]
-  B --> D[Member]
-  B --> E[Emprunt]
-  C --> F[(livres.txt)]
-  D --> G[(membres.txt)]
-  E --> H[(emprunts.txt)]
+    A["main.cpp"] --> B["Application Flow"]
+    B --> C["Livre"]
+    B --> D["Member"]
+    B --> E["Emprunt"]
+    C --> F["livres.txt"]
+    D --> G["membres.txt"]
+    E --> H["emprunts.txt"]
 
 
 ## Technical Concepts Applied
