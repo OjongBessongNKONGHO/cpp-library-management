@@ -1,18 +1,21 @@
 # C++ Library Management System
 
-A console-based library management system built in C++ using object-oriented programming and file-based data persistence.
+A console-based library management system built in C++ using object-oriented design principles and file-based data persistence.
 
+## Project Context
 
-## Project Purpose
+This project was developed as part of my academic training to apply structured software design, modular architecture, and object-oriented programming in a real-world scenario.
 
-This project was developed to design and implement a structured library management system capable of:
+## Project Overview
 
-- Managing books (creation, storage, retrieval)
-- Registering and managing members
-- Handling borrowing and returning operations
-- Persisting data using text files
+The system simulates a basic library environment and supports:
 
-The objective was to apply OOP principles in a real-world structured application.
+- Book management (creation, storage, retrieval)
+- Member registration and management
+- Borrowing and return operations
+- Persistent storage using structured text files
+
+The goal was to design a clean, modular application with clear separation of responsibilities between components, while implementing core OOP concepts such as encapsulation and abstraction.
 
 
 ## System Architecture
@@ -30,7 +33,10 @@ Data is stored using:
 - `emprunts.txt`
 
 
-## Architecture (High level)
+ ## Architecture Overview
+
+The system follows a modular object-oriented structure with file-based persistence.
+
 
 ```mermaid
 flowchart TD
